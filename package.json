@@ -1,0 +1,10 @@
+{
+  "name": "kayan-alkhalij-site",
+  "version": "2.0.0",
+  "description": "Static website for Kayan Al Khalij Manufacturing",
+  "private": true,
+  "keywords": ["kayan", "aluminum", "cladding", "windows", "static-site"],
+  "author": "Kayan Al Khalij",
+  "license": "MIT",
+  "scripts": {}
+}

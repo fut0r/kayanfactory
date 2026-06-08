@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>وضع غير متصل | كيان الخليج للصناعة</title>
+  <link rel="icon" href="window_icon_125687.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: var(--bg-gray);
+      color: var(--text-dark);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+    .offline-box {
+      background: #ffffff;
+      padding: 3rem 2rem;
+      max-width: 480px;
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--secondary);
+      margin-bottom: 1rem;
+    }
+    p {
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+    .hint {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 2rem;
+      border-top: 1px solid var(--border-color);
+      padding-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-box" role="alert" aria-live="polite">
+    <h1>أنت غير متصل بالإنترنت</h1>
+    <p>يبدو أنك فقدت الاتصال بالإنترنت. يمكنك تصفح الصفحات التي قمت بزيارتها سابقاً، أو إعادة تحميل الصفحة بمجرد استعادة الاتصال.</p>
+    <div class="actions">
+      <a href="./index.html" class="btn btn-primary">الرئيسية</a>
+      <a href="javascript:location.reload()" class="btn btn-outline">إعادة المحاولة</a>
+    </div>
+    <p class="hint">يتم تحميل هذا المحتوى تلقائياً من الذاكرة المؤقتة للمتصفح. ستعمل كافة الميزات والنماذج بشكل طبيعي فور استعادة الاتصال.</p>
+  </div>
+</body>
+</html>

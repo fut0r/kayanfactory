@@ -1,0 +1,43 @@
+{
+  "name": "كيان الخليج للصناعة",
+  "short_name": "كيان الخليج",
+  "description": "مصنع كيان الخليج للصناعة - متخصصون في تصنيع وتركيب الكرتن وول والكلادينج والنوافذ والأبواب",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6a00",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business"],
+  "icons": [
+    {
+      "src": "window_icon_125687.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "الرئيسية",
+      "short_name": "الرئيسية",
+      "url": "./index.html",
+      "icons": [{ "src": "window_icon_125687.svg", "sizes": "any" }]
+    },
+    {
+      "name": "منتجاتنا",
+      "short_name": "المنتجات",
+      "url": "./products.html",
+      "icons": [{ "src": "window_icon_125687.svg", "sizes": "any" }]
+    },
+    {
+      "name": "اتصل بنا",
+      "short_name": "الاتصال",
+      "url": "./contact.html",
+      "icons": [{ "src": "window_icon_125687.svg", "sizes": "any" }]
+    }
+  ],
+  "display_override": ["standalone", "minimal-ui"]
+}
